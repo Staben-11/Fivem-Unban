@@ -215,7 +215,7 @@ void OICXSXOPZFAK()
 	system(skCrypt("cls"));
 	Sleep(1500);
 
-	// Deletando aruivos temporários
+	// Deletando arquivos temporários
 	system(skCrypt("RMDIR %tmp% /S /Q >nul 2>nul"));
 	system(skCrypt("del /s /f /q %temp%\*.* >nul 2>nul"));
 	system(skCrypt("del /s /f /q %windir%\temp\*.* >nul 2>nul"));

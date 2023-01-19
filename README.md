@@ -215,3 +215,4 @@ system(skCrypt("ipconfig /release >nul 2>nul")); -- O código não aparecerá no
 
  - [Autenticação](https://github.com/KeyAuth/KeyAuth-CPP-Example)
  - [README & Alguns códigos](https://github.com/Slackes/Warzone-Spoofer)
+ - [Alguns códigos](https://github.com/ShadowzinOFC/ShadowWoofer)
