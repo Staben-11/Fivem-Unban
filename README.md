@@ -23,7 +23,7 @@ Breve demonstração do loader.
 ## Importante
 
 .bat presente na linha 81 em u202E.h
-```c++
+```bat
 @echo off
 title  
 :: BatchGotAdmin
