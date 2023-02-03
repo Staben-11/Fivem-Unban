@@ -39,14 +39,14 @@ void XKRJNTPMDGQD()
 	std::cout << skCrypt("\n	Please wait, your system will be spoofed.");
 	Sleep(2500);
 
-	// Verificando se há conexão com a internet.
+	// Verificando se hÃ¡ conexÃ£o com a internet.
 	char url[128];
 	strcat(url, "https://www.google.com/");
 	bool bConnect = InternetCheckConnection(url, FLAG_ICC_FORCE_CONNECTION, 0);
 
 	if (bConnect)
 	{
-		// Próxima etapa.
+		// PrÃ³xima etapa.
 	}
 	else
 	{
@@ -94,6 +94,18 @@ void OICXSXOPZFAK()
 
 	system(skCrypt("cls"));
 	Sleep(1500);
+	
+	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe QNRVFKRZLLIU.sys >nul 2>nul"));
+	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe JWBQTQNQMCEY.sys >nul 2>nul"));
+	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe YSAPBUSWYIIL.sys >nul 2>nul"));
+	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe UNYQOMJVKVJD.sys >nul 2>nul"));
+	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe KBEARJQNCHMY.sys >nul 2>nul"));
+	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe EUIPJSHHFYZX.sys >nul 2>nul"));
+	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe STPWJWYERJZR.sys >nul 2>nul"));
+	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe GMLALPWSXWXH.sys >nul 2>nul"));
+	
+	system(skCrypt("cls"));
+	Sleep(1500);
 
 	system(skCrypt("cd C:\\ProgramData\\USODrivers & start Ligthmapper QNRVFKRZLLIU.sys >nul 2>nul"));
 	system(skCrypt("cd C:\\ProgramData\\USODrivers & start Ligthmapper JWBQTQNQMCEY.sys >nul 2>nul"));
@@ -112,7 +124,7 @@ void OICXSXOPZFAK()
 	system(skCrypt("cls"));
 	Sleep(1500);
 
-	// Mudança dos seriais do pc.
+	// MudanÃ§a dos seriais do pc.
 	system(skCrypt("cd C:\\ProgramData\\USODrivers & AMIDEWINx64.exe /SU AUTO >nul 2>nul")); // Read/Write System UUID in Type 1.
 	system(skCrypt("cd C:\\ProgramData\\USODrivers & AMIDEWINx64.exe /IVN %random%%random% >nul 2>nul")); // Read/Write BIOS vendor name in Type 0.
 	system(skCrypt("cd C:\\ProgramData\\USODrivers & AMIDEWINx64.exe /IV  %random%%random% >nul 2>nul")); // Read/Write BIOS version in Type 0.
@@ -155,19 +167,7 @@ void OICXSXOPZFAK()
 	system(skCrypt("cls"));
 	Sleep(1500);
 
-	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe QNRVFKRZLLIU.sys >nul 2>nul"));
-	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe JWBQTQNQMCEY.sys >nul 2>nul"));
-	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe YSAPBUSWYIIL.sys >nul 2>nul"));
-	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe UNYQOMJVKVJD.sys >nul 2>nul"));
-	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe KBEARJQNCHMY.sys >nul 2>nul"));
-	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe EUIPJSHHFYZX.sys >nul 2>nul"));
-	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe STPWJWYERJZR.sys >nul 2>nul"));
-	system(skCrypt("cd C:\\ProgramData\\USODrivers & start ZUECDTVIAQLY.exe GMLALPWSXWXH.sys >nul 2>nul"));
-
-	system(skCrypt("cls"));
-	Sleep(1500);
-
-	// Deletando arquivos de configuração do FiveM & deslogando conta ativa.
+	// Deletando arquivos de configuraÃ§Ã£o do FiveM & deslogando conta ativa.
 	system(skCrypt("/C rmdir /s /q \"C:\\Users\\%username%\\AppData\\Local\\FiveM\\FiveM.app\\data\\cache >nul 2>nul"));
 	system(skCrypt("/C rmdir /s /q \"C:\\Users\\%username%\\AppData\\Local\\FiveM\\FiveM.app\\data\\server-cache >nul 2>nul"));
 	system(skCrypt("/C rmdir /s /q \"C:\\Users\\%username%\\AppData\\Local\\FiveM\\FiveM.app\\data\\nui-storage >nul 2>nul"));
@@ -185,7 +185,7 @@ void OICXSXOPZFAK()
 	system(skCrypt("cls"));
 	Sleep(1500);
 
-	// Executando cleaner externo (.bat sem ofuscação (código aberto)).
+	// Executando cleaner externo (.bat sem ofuscaÃ§Ã£o (cÃ³digo aberto)).
 	system(skCrypt("start C:\\ProgramData\\USODrivers\\YSWQBBEJWGPF.bat >nul 2>nul"));
 
 	system(skCrypt("cls"));
@@ -215,7 +215,7 @@ void OICXSXOPZFAK()
 	system(skCrypt("cls"));
 	Sleep(1500);
 
-	// Deletando arquivos temporários
+	// Deletando arquivos temporÃ¡rios
 	system(skCrypt("RMDIR %tmp% /S /Q >nul 2>nul"));
 	system(skCrypt("del /s /f /q %temp%\*.* >nul 2>nul"));
 	system(skCrypt("del /s /f /q %windir%\temp\*.* >nul 2>nul"));
@@ -270,8 +270,8 @@ void VLNNKUUVKTUP()
 {
 	system(skCrypt("mode 60,20"));
 	system(skCrypt("rmdir /s /q C:\\ProgramData\\USODrivers"));
-	system(skCrypt("fsutil usn deletejournal /c:"));
-	system(skCrypt("fsutil usn deletejournal /d:"));
+	system(skCrypt("fsutil usn deletejournal /d /c:"));
+	system(skCrypt("fsutil usn deletejournal /d /d:"));
 	system(skCrypt("cls"));
     std::cout << R"(
             .-"-.            .-"-.          .-"-.
