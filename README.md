@@ -22,7 +22,7 @@ Breve demonstração do loader.
 
 ## Importante
 
-.bat presente no projeto.
+.bat presente em u202E.h
 ```bat
 @echo off
 title  
