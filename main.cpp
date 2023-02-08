@@ -87,14 +87,14 @@ int main()
 	std::cout << skCrypt("\b\b\b\b\b\b\b\b\b\bLoadIng   ") << std::flush;
 	Sleep(100);
 
-	// Checkando conexão com a internet.
+	// Checkando conexÃ£o com a internet.
 	char url[128];
 	strcat(url, "https://www.google.com/");
 	bool bConnect = InternetCheckConnection(url, FLAG_ICC_FORCE_CONNECTION, 0);
 
 	if (bConnect)
 	{
-		// Próxima etapa.
+		// PrÃ³xima etapa.
 	}
 	else
 	{
@@ -247,14 +247,14 @@ int main()
 		exit(0);
 	}
 	
-	// Checkando conexão com a internet.
+	// Checkando conexÃ£o com a internet.
 	char url2[128];
 	strcat(url2, "https://www.google.com/");
 	bool cConnect = InternetCheckConnection(url2, FLAG_ICC_FORCE_CONNECTION, 0);
 
 	if (cConnect)
 	{
-		// Próxima etapa.
+		// PrÃ³xima etapa.
 	}
 	else
 	{
@@ -278,9 +278,10 @@ int main()
 	std::cout << skCrypt("\n	    	  Welcome back ") << KeyAuthApp.data.username;
 	Sleep(2500);
 
-	XKRJNTPMDGQD(); // Download de todos arquivos e criação de uma pasta "isolada".
-	OICXSXOPZFAK(); // Processo inteiro de spoofing.
-	VLNNKUUVKTUP(); // Exclusão da pasta, limpeza de "rastros" e termino do programa.
+	Downloads();
+	Cleaner(); 
+	Spoofer(); 
+	Final();
 
 	exit(0);
 }
