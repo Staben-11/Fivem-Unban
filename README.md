@@ -99,7 +99,6 @@ REG DELETE "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer
 REG DELETE "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\bam" /F
 REG DELETE "HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU" /F
 REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSLicensing\HardwareID" /f
-REG DELETE "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\WMI\Security\" /f
 
 cls
 
